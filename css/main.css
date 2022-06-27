@@ -152,7 +152,7 @@ body{
 
 .news-list-item{
     width: 393px;
-    margin: 10px 1px 0px 0px;
+    margin: 10px 10px 0px 0px;
     padding: 20px 43px 15px 17px;
     background-color: #F6F6F6;
     border-radius: 15px;
@@ -187,40 +187,40 @@ body{
     width: 20px;
     height: 20px;
     display: block;
-    background-image: url('/namanganliklar/images/flagin.png');
+    background-image: url("../images/flagin.png");
     content: '';
 }
 
 .wheat::before{
-    background-image: url('/namanganliklar/images/little-icon.png');
+    background-image: url("../images/little-icon.png");
 }
 
 .xaytek::before{
-    background-image: url('/namanganliklar/images/little-icon2.png');
+    background-image: url("../images/little-icon2.png");
 }
 
 .digger::before{
-    background-image: url('/namanganliklar/images/little-icon3.png');
+    background-image: url("../images/little-icon3.png");
 }
 
 .lenta::before{
-    background-image: url('/namanganliklar/images/little-icon4.png');
+    background-image: url("../images/little-icon4.png");
 }
 
 .tarantas::before{
-    background-image: url('/namanganliklar/images/little-icon5.png');
+    background-image: url("../images/little-icon5.png");
 }
 
 .tacc::before{
-    background-image: url('/namanganliklar/images/little-icon6.png');
+    background-image: url("../images/little-icon6.png");
 }
 
 .rbk::before{
-    background-image: url('/namanganliklar/images/little-icon7.png');
+    background-image: url("../images/little-icon7.png");
 }
 
 .solenko::before{
-    background-image: url('/namanganliklar/images/small-icon6.png');
+    background-image: url("../images/small-icon6.png");
 }
 
 
@@ -243,7 +243,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url('/namanganliklar/images/notification\ background.png');
+    background-image: url("../images/notification-background.png");
     border-radius: 14px;
     margin: 0 auto;
     margin-top: 60px;
