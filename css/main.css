@@ -124,6 +124,7 @@ body{
     justify-content: space-between;
     list-style: none;
     margin: 0;
+    margin-bottom: 40px;
     padding: 30px 0px 20px 0px;
     border-bottom: 1px solid #D1D1D1;
 }
@@ -134,9 +135,10 @@ body{
     font-weight: 500;
 }
 
-.shopme{
-    margin-top: 40px;
+.shop-me{
+    margin-bottom: 60px;
 }
+
 
 /* News page start */
 
@@ -150,8 +152,8 @@ body{
 
 .news-list-item{
     width: 393px;
-    margin: 10px 10px 0px 0px;
-    padding: 20px 17px 15px;
+    margin: 10px 1px 0px 0px;
+    padding: 20px 43px 15px 17px;
     background-color: #F6F6F6;
     border-radius: 15px;
 }
@@ -159,13 +161,14 @@ body{
 .news-list-item:nth-child(3){
     margin-right: 0px;
 }
+
 .news-list-item:last-child{
     margin-right: 0px;
 }
 
 .news-subtilte{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 650;
     margin: 0;
 }
 
@@ -180,12 +183,57 @@ body{
     margin: 15px 0px 0px 0px;
 }
 
+.news-list-item-end::before{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-image: url('/namanganliklar/images/flagin.png');
+    content: '';
+}
+
+.wheat::before{
+    background-image: url('/namanganliklar/images/little-icon.png');
+}
+
+.xaytek::before{
+    background-image: url('/namanganliklar/images/little-icon2.png');
+}
+
+.digger::before{
+    background-image: url('/namanganliklar/images/little-icon3.png');
+}
+
+.lenta::before{
+    background-image: url('/namanganliklar/images/little-icon4.png');
+}
+
+.tarantas::before{
+    background-image: url('/namanganliklar/images/little-icon5.png');
+}
+
+.tacc::before{
+    background-image: url('/namanganliklar/images/little-icon6.png');
+}
+
+.rbk::before{
+    background-image: url('/namanganliklar/images/little-icon7.png');
+}
+
+.solenko::before{
+    background-image: url('/namanganliklar/images/small-icon6.png');
+}
+
+
+
+
 .news-list-item-bottom-text{
     font-size: 12px;
     margin: 0;
     margin-left: 10px;
     color: #5E5F61;
 }
+
+
 
 /* Article */
 
@@ -195,7 +243,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFD7BA;
+    background-image: url('/namanganliklar/images/notification\ background.png');
     border-radius: 14px;
     margin: 0 auto;
     margin-top: 60px;
@@ -279,18 +327,34 @@ body{
     list-style: none;
 }
 
+.world-end-list-main-title{
+    margin: 0px 0px 25px 0px;
+}
+
 .world-list-item-end-title{
-    margin: 0;
+    margin: 0px 0px 8px 0px;
 }
 
 .world-list-item-end-subtitle{
+    margin: 0px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 500;
 }
 
+.world-list-end-text{
+    margin: 0;
+    font-size: 13px;
+}
+
 .world-end-list-item{
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
     border-bottom: 1px solid #D2D2D2;
+}
+
+.world-end-list-item:last-child{
+    margin: 0;
 }
 
 .world-end-list-item:last-child{
@@ -298,7 +362,6 @@ body{
     padding: 0;
 }
 .aside-olmos{
-    margin-top: 20px;
     margin-left: 10px;
 }
 
