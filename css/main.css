@@ -1,10 +1,26 @@
+@font-face {
+    font-family: "Rubik";
+    font-display: swap;
+    font-weight: 400;
+    src:  url("../fonts/rubik-v20-latin-regular.woff") format("woff"),
+          url("../fonts/rubik-v20-latin-regular.woff2") format("woff2");
+        
+}
+
+@font-face {
+    font-family: "Rubik";
+    font-display: swap;
+    font-weight: 500;
+    src: url("../fonts/rubik-v20-latin-500.woff") format("woff"),
+         url("../fonts/rubik-v20-latin-500.woff2") format("woff2");
+}
+
 *{
     box-sizing: border-box;
 }
 
 body{
     margin: 0;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container{
@@ -33,6 +49,7 @@ body{
 }
 
 .currency-list-item{
+    font-family: "Rubik";
     margin-right: 25px;
     margin-left: 40px;
 }
@@ -130,9 +147,11 @@ body{
 }
 
 .nav-list-item a{
+    font-family: "Rubik";
+    color: #7F7F7F;
+    font-weight: 500;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
 }
 
 .shop-me{
@@ -167,14 +186,15 @@ body{
 }
 
 .news-subtilte{
+    font-family: "Rubik";
     font-size: 20px;
-    font-weight: 650;
     margin: 0;
+    padding-right: 20px;
 }
 
 .news-list-item-text{
+    font-family: "Rubik";
     color: #4A4B4C;
-    font-weight: 450;
 }
 
 .news-list-item-end{
@@ -188,7 +208,7 @@ body{
     height: 20px;
     display: block;
     background-image: url("../images/flagin.png");
-    content: '';
+    content: "";
 }
 
 .wheat::before{
@@ -252,12 +272,14 @@ body{
 
 .article-title{
     width: 404px;
+    font-family: "Rubik";
 }
 
 .article-btn{
     text-decoration: none;
     padding: 13px 30px;
     background: #F78B3B;
+    font-family: "Rubik";
     border-radius: 10px;
     font-size: 20px;
     color: #fff;
@@ -273,7 +295,7 @@ body{
 
 .world-title{
     font-size: 28px;
-    font-weight: 500;
+    font-family: "Rubik";
     line-height: 28px;
     margin-top: 60px;
 }
@@ -286,6 +308,7 @@ body{
     width: 797px;
     display: flex;
     align-items: center;
+    font-family: "Rubik";
     margin-top: 10px;
     padding: 20px 20px;
     background-color: #F6F6F6;
@@ -321,6 +344,7 @@ body{
 .world-end-list{
     width: 393px;
     background: #F6F6F6;
+    font-family: "Rubik";
     border-radius: 15px;
     margin-left: 10px;
     padding: 20px 17px;
@@ -338,8 +362,8 @@ body{
 .world-list-item-end-subtitle{
     margin: 0px;
     margin-bottom: 10px;
+    font-family: "Rubik";
     font-size: 18px;
-    font-weight: 500;
 }
 
 .world-list-end-text{
@@ -378,6 +402,7 @@ body{
 }
 
 .footer-top-item{
+    font-family: "Rubik";
     display: flex;
     justify-content: space-between;
 }
@@ -413,6 +438,7 @@ body{
 }
 
 .footer-list-end-item{
+    font-family: "Rubik";
     margin-top: 20px;
 }
 
