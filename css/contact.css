@@ -280,6 +280,10 @@ body{
     margin-bottom: 10px;
 }
 
+.contact-address{
+    font-style: normal;
+}
+
 /* Footer */
 
 .footer-wrapper{
