@@ -14,31 +14,25 @@
     <header class="header-wrapper">
         <div class="container">
             <div class="header-top">
-                <a href="./index.html">
-                    <img src="./images/logo.png" alt="">
-                </a>
-                <ul class="currency-list">
-                    <li class="currency-list-item"><span class="currency-list-item-symbol">$</span> 10137.2</li>
-                    <li class="currency-list-item-end"><span class="currency-list-item-symbol">P</span> 138.26</li>
-                </ul>
-
-                <ul class="searchbar-list">
-                    <li class="searchbar-list-item-input">
-                        <img src="./images/search.svg" alt="">
-                        <input class="search-input" type="text" placeholder="Поиск">
-                    </li>
-                    <li class="searchbar-list-item-lang">
-                        <div class="lang-uz">
-                            <p class="lang-text">УЗ</p>
-                        </div>
-                        <div class="lang-ru">
-                            <p class="lang-text">РУ</p>
-                        </div>
-                    </li>
-                    <li class="searchbar-list-item-btn">
-                        <a class="header-btn" href="#">Войти</a>
-                    </li>
-                </ul>
+               <div class="header-start">
+                    <a href="./index.html">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                    <ul class="currency-list">
+                        <li class="currency-list-item"><span class="currency-list-item-symbol">$</span> 10137.2</li>
+                        <li class="currency-list-item"><span class="currency-list-item-symbol">P</span> 138.26</li>
+                    </ul>
+               </div>
+                <div class="header-end">
+                    <form action="https://echo.htmlacademy.ru/" method="post" autocomplete="off">
+                        <input class="search-input" type="search" name="search_result" placeholder="Поиск">
+                    </form>
+                    <div class="searchbar-list-item-lang">
+                        <span class="lang-uz">УЗ</span>
+                        <span class="lang-ru">РУ</span>
+                    </div>
+                    <a class="header-btn-link" href="#">Войти</a>
+                </div>
             </div>
         </div>
     </header>
@@ -341,15 +335,29 @@
                         </div>
                     </div>
                     <ul class="footer-list-start">
-                        <li class="footer-list-start-item">Информация о сайте</li>
-                        <li class="footer-list-start-item">Напишите нам</li>
-                        <li class="footer-list-start-item">Реклама</li>
-                        <li class="footer-list-start-item">Прислать новость</li>
+                        <li class="footer-list-start-item">
+                            <a class="footer-item-link" href="#">Информация о сайте</a>
+                        </li>
+                        <li class="footer-list-start-item">
+                            <a class="footer-item-link" href="contact.html">Напишите нам</a>
+                        </li>
+                        <li class="footer-list-start-item">
+                            <a class="footer-item-link" href="#">Реклама</a>
+                        </li>
+                        <li class="footer-list-start-item">
+                            <a class="footer-item-link" href="#">Прислать новость</a>
+                        </li>
                     </ul>
                     <ul class="footer-list-end">
-                        <li class="footer-list-end-item">Использование материалов</li>
-                        <li class="footer-list-end-item">Темы дня</li>
-                        <li class="footer-list-end-item">Наша команда</li>
+                        <li class="footer-list-end-item">
+                            <a class="footer-item-link" href="#">Использование материалов</a>
+                        </li>
+                        <li class="footer-list-end-item">
+                            <a class="footer-item-link" href="#">Темы дня</a>
+                        </li>
+                        <li class="footer-list-end-item">
+                            <a class="footer-item-link" href="#">Наша команда</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -383,6 +391,7 @@
                 </div>
             </div>
     </footer>
-</body>
 
+    
+</body>
 </html>
