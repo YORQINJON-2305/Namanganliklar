@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 @font-face {
     font-family: "Rubik";
@@ -117,7 +124,7 @@ body{
         -ms-flex-align: center;
             align-items: center;
     padding: 13px 20px 13px 41px;
-    background-color: #FFFFFF;
+    background-color: #fff;
     background-image: url("../images/search.svg");
     background-repeat: no-repeat;
     background-position: 15px, center;
@@ -511,6 +518,8 @@ body{
 }
 
 .footer-list-start{
+    margin: 0;
+    padding: 0;
     list-style: none;
     font-size: 18px;
     color: #fff;
@@ -532,6 +541,8 @@ body{
 }
 
 .footer-list-end{
+    margin: 0;
+    padding: 0;
     list-style: none;
     font-size: 18px;
     color: #fff;
@@ -580,6 +591,8 @@ body{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
