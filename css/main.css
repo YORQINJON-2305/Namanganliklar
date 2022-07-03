@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: "Rubik";
     font-weight: 400;
@@ -33,7 +34,8 @@
 }
 
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body{
@@ -55,19 +57,33 @@ body{
 .header-top{
     width: 1180px;
     padding: 30px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .header-start{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .currency-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -84,14 +100,22 @@ body{
 }
 
 .header-end{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .search-input{
     width: 275px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 13px 20px 13px 41px;
     background-color: #FFFFFF;
     background-image: url("../images/search.svg");
@@ -99,19 +123,29 @@ body{
     background-position: 15px, center;
     border-radius: 60px;
     outline: transparent;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
     border: none;
 }
 
 .search-input:focus{
-    box-shadow: 0px 0px 3px 0px #7296EC;
+    -webkit-box-shadow: 0px 0px 3px 0px #7296EC;
+            box-shadow: 0px 0px 3px 0px #7296EC;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
 }
 
 .searchbar-list-item-lang{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     width: 70px;
     background-color:#DCE6FF;
     border-radius: 40px;
@@ -122,9 +156,15 @@ body{
 .lang-uz{
     width: 30px;
     height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: 13px;
     border-radius: 50%;
     background-color: #fff;
@@ -147,9 +187,15 @@ body{
 /* Nav start */
 
 .nav-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     list-style: none;
     margin: 0;
     margin-bottom: 40px;
@@ -172,8 +218,11 @@ body{
 /* News page start */
 
 .news-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     list-style: none;
     margin: 40px 0px 0px 0px;
     padding: 0;
@@ -207,8 +256,12 @@ body{
 }
 
 .news-list-item-end{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 15px 0px 0px 0px;
 }
 
@@ -269,9 +322,15 @@ body{
 .article{
     width: 1050px;
     height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     background-image: url("../images/notification-background.png");
     border-radius: 14px;
     margin: 0 auto;
@@ -300,6 +359,8 @@ body{
 /* World news start */
 
 .world-news{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 100px;
 }
@@ -317,8 +378,12 @@ body{
 
 .world-start-list-item{
     width: 797px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 10px;
     padding: 20px 20px;
     background-color: #F6F6F6;
@@ -334,8 +399,9 @@ body{
 }
 
 .world-start-item-heading{
+    font-family: "Rubik";
+    font-weight: 900;
     font-size: 20px;
-    font-weight: 550;
 }
 
 .world-start-item-link{
@@ -365,16 +431,17 @@ body{
     width: 393px;
     background: #F6F6F6;
     border-radius: 15px;
+    margin-bottom: 10px;
     margin-left: 10px;
     padding: 20px 17px;
 }
-
 .world-end-list{
-   padding-inline-start: 0;
+    padding: 0;
     list-style: none;
 }
 
 .world-end-list-main-title{
+    font-size: 24px;
     margin: 0px 0px 25px 0px;
     font-weight: 500;
 }
@@ -428,8 +495,12 @@ body{
 }
 
 .footer-top-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .footer-text-p{
@@ -482,9 +553,15 @@ body{
 }
 
 .footer-bottom-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .copyright-wrapper{
@@ -497,8 +574,12 @@ body{
 }
 
 .footer-list-icon{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     list-style: none;
 }
 
