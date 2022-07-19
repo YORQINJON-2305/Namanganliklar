@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 @font-face {
     font-family: "Rubik";
@@ -359,8 +366,10 @@ body{
     background: #F78B3B;
     border-radius: 10px;
     font-size: 20px;
+    border: none;
     color: #fff;
     font-weight: 500;
+    cursor: pointer;
 }
 
 /* World news start */
@@ -602,4 +611,90 @@ body{
 
 .footer-list-icon-item:last-child{
     margin-right: 0;
+}
+
+
+/* MODAL START */
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:-webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4)));
+    background-image:-o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    opacity: 0;
+    pointer-events: none;
+}
+
+.open-modal{
+    opacity: 1;
+    pointer-events: all;
+    -webkit-animation-name: openModal;
+            animation-name: openModal;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+
+.modal-window{
+    position: relative;
+    top: -250px;
+    width: 850px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.modal-info-wrap{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal-text{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.close-modal{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 15px;
+    height: 15px;
+    background-image: url("../images/close.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@-webkit-keyframes openModal {
+    0%{
+        padding-top: 0px;
+    }
+
+    100%{
+        padding-top: 500px;
+    }
+}
+
+@keyframes openModal {
+    0%{
+        padding-top: 0px;
+    }
+
+    100%{
+        padding-top: 500px;
+    }
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -197,7 +196,7 @@
                    <div class="article-title">
                        <h3>Хотите быть в курсе свежих новостей? Включите уведомления!</h3>
                    </div>
-                   <a class="article-btn" href="#">Включит</a>
+                   <button class="article-btn js-open-btn" type="button">Включит</button>
                </div>
            </div>
        </article>
@@ -398,6 +397,18 @@
             </div>
     </footer>
 
+    <!-- MODAL START -->
+
+    <div class="modal">
+        <div class="modal-window">
+            <div class="modal-info-wrap">
+                <strong class="modal-text">Хотите быть в курсе свежих новостей?  Включите уведомления!</strong>
+                <button class="article-btn">Включит </button>
+                <button class="close-modal js-close-modal"></button>
+            </div>
+        </div>
+    </div>
     
+    <script src="main.js"></script>
 </body>
 </html>
